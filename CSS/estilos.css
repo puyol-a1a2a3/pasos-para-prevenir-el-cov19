@@ -1,0 +1,186 @@
+*{
+font-family:  Arial Narrow;
+color: white;
+}
+
+ body{
+background: #0C0C0C;
+
+
+}
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+	
+}
+
+#article{
+	background-image: url(../imagenes/c1.jpg);
+	height: 700px;
+
+background-size: 100% 100%;
+
+
+	
+}
+
+
+
+nav{
+width: 100%;
+height: 80px;
+background: rgba(15, 15, 15,0.9);
+padding-top: 0px;
+padding-bottom: 10px;
+color:white;
+padding: 20px;
+position: fixed;
+display: inline-flex;
+}
+
+ nav ul{
+ 	display: inline-flex;
+ 	list-style: none;
+ }
+#ba{
+padding-bottom: 10px;
+padding-top: 10px;
+padding-right: 12px;
+padding-left: 12px;
+border: 2px solid white;
+width: 100px;
+font-size: 25px;
+}
+nav #m1 {
+	
+    width: 200px;
+	display: block;
+	list-style: none;
+    display: none;
+    background: rgba(15, 15, 15,0.9);
+}
+nav #m2 {
+	
+    width: 300px;
+	display: block;
+	list-style: none;
+    display: none;
+    background: rgba(15, 15, 15,0.9);
+}
+nav ul li{
+width: 300px;
+
+}
+
+nav  #ini:hover{
+color:red;
+transition: all .9s;
+}
+nav  #com:hover{
+color:red;
+}
+ul #ini:hover #m1{
+display: block;
+}
+ul #com:hover #m2{
+display: block;
+}
+{
+	
+    font-size:  13px;
+    color: #807C7C;
+
+}
+footer{
+background: rgba(15, 15, 15,0.9);
+}
+#parra{
+	font-family:  Arial Narrow;
+	width: 400px;
+	font-size: 20px;
+
+
+}
+h2{
+	font-size: 30px;
+}
+#da{
+	width: 40%;
+	padding-top: 60px;
+	font-family:  Arial Narrow;
+	background: rgba(15, 15, 15,0.5);
+	padding-left: 200px;
+	height: 90%;
+   
+}
+#arti{
+	
+	height: 600px;
+	background-image: url(../imagenes/c8.jpg);
+	background-size: 100% 100%;
+
+}
+
+
+#ini{
+	color: white;
+}
+form{
+	
+	color: #9B9A9A;
+	padding-left: 250px;
+	display: flex;
+ 
+}
+#art{
+	width: 100%;
+    padding-left: 300px;
+  
+}
+ #ar{
+ 	width: 400px;
+ }
+
+input{
+color: black;
+width: 275px;
+height: 25px;
+margin: 2px;
+
+}
+
+
+#ca {
+	color: black;
+	width: 80px;
+	height: 30px;
+}
+
+#mensaje{
+	height: 100px;
+ 
+}
+footer{
+padding-left: 400px;
+}
+#bot{
+	width: 500px;
+    border: 2px solid white;
+    color: white;
+    background: black;
+}
+
+#ingre{
+	width: 500px;
+    border: 2px solid white;
+    color: white;
+    background: black;
+}
+
+#nun{
+	padding-left: 125px;
+}
+#LLENA{
+font-size: 40px;
+}
